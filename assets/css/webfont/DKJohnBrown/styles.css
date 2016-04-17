@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'DKJohnBrown';
+  src: url('DKJohnBrown.eot?#iefix') format('embedded-opentype'),  url('DKJohnBrown.otf')  format('opentype'),
+	     url('DKJohnBrown.woff') format('woff'), url('DKJohnBrown.ttf')  format('truetype'), url('DKJohnBrown.svg#DKJohnBrown') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
