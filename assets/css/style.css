@@ -336,7 +336,7 @@ a:focus {
   padding: 40px 0;
   color: #ccc;
   text-align: center;
-  background-color: dimgrey;
+  background-color: #ffffff;
 }
 #footer a,
 #footer a:hover,
@@ -464,4 +464,9 @@ a:focus {
 
 .programm-text{
   padding-top: 20px;
+}
+
+.extra-bottom-padding {
+  padding-bottom: 20px;
+
 }

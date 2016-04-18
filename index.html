@@ -17,12 +17,7 @@
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/timleline.css">
     <link rel="stylesheet" href="assets/css/webfonts.css">
-
-
-
-
-
-
+    <link rel="stylesheet" href="assets/css/languages.min.css">
 
     <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
@@ -80,6 +75,18 @@
               <li>
                 <a href="#contact">Anfahrt  Kontakt</a>
               </li>
+              <li >
+              <div class="btn-group dropdown" style="padding-top: 10px;">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                  <span class="lang-sm lang-lbl-full" lang="de"></span> <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#"><span class="lang-sm lang-lbl-full" lang="cs"></span></a></li>
+                  <li><a href="#"><span class="lang-sm lang-lbl-full" lang="pl"></span></a></li>
+                  <li><a href="#"><span class="lang-sm lang-lbl-full" lang="en"></span></a></li>
+                </ul>
+              </div>
+            </li>
             </ul>
           </div>
         </div>
@@ -726,6 +733,7 @@
 
     <section id="contact" class="page">
       <div class="container">
+
         <div class="content cover text-center">
           <div class="heading">
             <h2>Anfahrt und Kontakt</h2>
@@ -733,14 +741,13 @@
             <br>
           </div>
           <div class="row">
-
-            <div class="media" >
-              <div class="media-left">
+              <div class="col-md-6">
                 <a href="#">
-                  <img class="media-object" src="assets/img/contact/karte_schwalbentanz_unsaturated_browns.jpg">
+                  <img class="img-responsive" src="assets/img/contact/karte_schwalbentanz_unsaturated_browns.jpg">
                 </a>
               </div>
-              <div class="media-body">
+
+              <div class="col-md-6">
                 <h4 style="text-align: left">| <b>Adresse</b></h4>
                 <p style="text-align: left">
                   Kirchbergstr. 3
@@ -751,7 +758,7 @@
                 <p style="text-align: left">
                   Am Abend wird es einen Shuttle nach Zittau geben!
                   Wer möchte, kann auch nahe am Gelände zelten.
-                  </p>
+                </p>
                 <h4 style="text-align: left">| <b>Anfahrt aus Richtung Dresden</b></h4>
                 <p style="text-align: left">
 
@@ -774,22 +781,24 @@
               </div>
             </div>
 
-            <div class="col-lg-4 animated hiding" data-animation="fadeInRight" data-delay="600">
-              <i class="fa fa-map-marker fa-3x"></i>
-              <a href="#">Lückendorf</a>
-            </div>
-            <div class="col-lg-4 animated hiding" data-animation="fadeInDown" data-delay="300">
-              <i class="fa fa-phone fa-3x"></i>
-              <a href="tel:04912345">+49 123 456</a>
-            </div>
-            <div class="col-lg-4 animated hiding" data-animation="fadeInLeft" data-delay="600">
-              <i class="fa fa-envelope fa-3x"></i>
-              <a href="mailto:ppc@live.de">ppc@live.de</a>
-            </div>
+            <div class="row">
+              <div class="col-sm-3 animated hiding" data-animation="fadeInRight" data-delay="600">
+                <i class="fa fa-map-marker fa-2x"></i>
+                <a href="#">Lückendorf</a>
+              </div>
+              <div class="col-sm-3 animated hiding" data-animation="fadeInDown" data-delay="300">
+                <i class="fa fa-phone fa-2x"></i>
+                <a href="tel:04912345">+49 123 456</a>
+              </div>
+              <div class="col-sm-3 animated hiding" data-animation="fadeInDown" data-delay="300">
+                  <i class="fa fa-facebook fa-2x"></i>
+                <a class="facebook" href="https://www.facebook.com/schwalbentanz/" title="Die Schwalben tanzen auch auf Facebook">Facebook</a>
+              </div>
+              <div class="col-sm-3 animated hiding" data-animation="fadeInLeft" data-delay="600">
+                <i class="fa fa-envelope fa-2x"></i>
+                <a href="mailto:ppc@live.de">ppc@live.de</a>
+              </div>
           </div>
-
-
-
 
         </div>
       </div>
@@ -798,20 +807,59 @@
 
     <footer id="footer">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-12 animated hiding" data-animation="fadeInUp">
-            <ul class="social list-inline ">
-              <li>
-                <a class="facebook" href="https://www.facebook.com/schwalbentanz/" title="Die Schwalben tanzen auch auf Facebook">
-                  <i class="fa fa-facebook fa-2x"></i>
-                </a>
-              </li>
-            </ul>
-            <p class="copyright">
-              &middot; April 2016 &middot;
-            </p>
+
+        <div class=""row extra-bottom-padding">
+          <div class="col-md-12">
+            <h3>Partner</h3>
+          </div>
+
+        </div>
+
+        <div class="row extra-bottom-padding">
+          <div class="col-md-3 animated hiding" data-animation="fadeInUp">
+            <a href="http://www.augenauf.net/" target="_blank">
+              <img class="media-object" src="assets/img/partner/aa_net.gif" style="background-color: white">
+            </a>
+          </div>
+          <div class="col-md-3 animated hiding" data-animation="fadeInUp">
+            <a href="http://emil-zittau.de/" target="_blank">
+              <img class="media-object" src="assets/img/partner/emil_dachlogo.png">
+            </a>
+          </div>
+          <div class="col-md-3 animated hiding" data-animation="fadeInUp">
+            <a href="http://fame-zittau.de/" target="_blank">
+              <img class="media-object" src="assets/img/partner/fame_shop.png">
+            </a>
+          </div>
+          <div class="col-md-3 animated hiding" data-animation="fadeInUp">
+            <a href="http://emil-zittau.de/">
+              <img class="media-object" src="assets/img/partner/emil_dachlogo.png">
+            </a>
           </div>
         </div>
+        <div class=row extra-bottom-padding">
+          <div class="col-md-12">
+            <h3>Sponsoren</h3>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 animated hiding" data-animation="fadeInUp" >
+            <a href="http://www.pohl-raumdesign.de/index.html" target="_blank">
+              <img class="media-object" src="assets/img/sponsor/pohl_raumdesign.png">
+            </a>
+          </div>
+          <div class="col-md-3 animated hiding" data-animation="fadeInUp">
+            <a href="http://www.pohl-raumdesign.de/index.html" target="_blank">
+              <img class="media-object" src="#"></a>
+          </div>
+          <div class="col-md-3 animated hiding" data-animation="fadeInUp">
+            <a href="http://www.pohl-raumdesign.de/index.html" target="_blank">
+              <img class="media-object" src="#"></a>
+          </div>
+        </div>
+
       </div>
     </footer>
 
