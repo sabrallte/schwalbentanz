@@ -443,10 +443,10 @@ a:focus {
 /*Programm*/
 
 .programm-icon{
-  padding-top: 20px;
-  border-color: white;
+  padding-top: 30px;
+/*  border-color: white;
   border-style: solid;
-  border-width: 0px 0px 0px 2px;
+  border-width: 0px 0px 0px 2px;*/
 
 }
 .text{
