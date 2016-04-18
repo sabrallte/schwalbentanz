@@ -19,13 +19,13 @@
     <link rel="stylesheet" href="assets/css/webfonts.css">
     <link rel="stylesheet" href="assets/css/languages.min.css">
     <link rel="stylesheet" href="assets/css/ribbon.css">
+    <link rel="stylesheet" href="assets/css/bootstrap3_player.css">
+
+
     <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
     <![endif]-->
-
-
-
 
   </head>
   <body>
@@ -143,7 +143,7 @@
         </div>
       </div>
     </section>
-    <section id="bands" class="page">
+    <section id="bands" class="page" style="background-color: #DCCE86">
       <div class="container">
         <div class="content text-center">
           <div class="heading">
@@ -151,17 +151,20 @@
             <div class="border"></div>
             <p>Und erst die musikalischen Gäste, die da wären:</p>
           </div>
+
+
           <div class="row">
-            <div class="col-md-12">
+              <div class="col-md-12" >
+                <div class="timeline-centered timeline-sm">
 
-              <!-- ANFANG TIMELINE -->
+                  <article class="timeline-entry">
+                    <div class="timeline-entry-inner">
+                      <time datetime="2014-01-10T03:45" class="timeline-time"><span>15:00 - 15:45 Uhr</span><span>Große Bühne</span></time>
+                      <div class="timeline-icon bg-violet">
+                        <img src="assets/img/timeline/schwalbe_02.png">
+                      </div>
+                      <div class="timeline-label">
 
-              <div class="container">
-                <ul class="timeline">
-                  <li>
-                    <div class="timeline-badge primary"></div>
-                    <div class="timeline-panel">
-                      <div class="timeline-heading clearfix">
                         <div class="media" style="background-color: black">
                           <div class="media-left">
                             <a href="#">
@@ -169,7 +172,7 @@
                             </a>
                           </div>
                           <div class="media-body">
-                            <h4 class="media-heading"  style="color: white">20:30 | <b>ANNE FREIBERG</b></h4>
+                            <h4 class="media-heading"  style="color: white"><b>ANNE FREIBERG</b></h4>
                             <p style="color: whitesmoke">
                               Oberlausitz/Berlin
                               <br>
@@ -178,43 +181,56 @@
                           </div>
                         </div>
 
-                      </div>
-                      <div class="timeline-body">
-                        <p class="text-left"><b class="initiale">M</b>usik von Anne Freiberg ‒ das ist akustisch geerdete Musik für alle, die gern zuhören und Geschichten erzählt bekommen.
-                          Für alle, die sich gern der Melancholie hingeben. Musik durchwoben von Poesie und Folk-Einflüssen, gepaart mit dem Charme des Unfertigen,
-                          des „Einfach mal machen“. Stets in enger Verbundenheit mit britischen sowie irischen
-                          <br>
-                          <br>
-                          Geboren und aufgewachsen in Zittau (Sachsen), lebt Anne Freiberg seit mehreren Jahren in Berlin und macht dort vor allem Musik und
-                          Theater mit kleinen und größeren Menschen in verschiedensten Kontexten, während das eigene Material meistens ruht, aber niemals verstummt.
-                          Gibt sie mal wieder ein kleines Konzert, dann ist das oft eine Art Familientreffen aus alten Zeiten.
-                          <br>
-                          <br>
-                          Von 2009 bis 2012 noch begleitet von einer vierköpfigen Band, entschied sie sich danach für den Alleingang oder kleinere,
-                          wechselnde Formationen ‒ reduziert auf ihre Quintessenz: Stimme, Gitarre und Authentizität...und zwischen den Songs eine Prise Selbstironie.
-                        </p>
-                      </div>
-                      <div class="timeline-footer">
-                        <div class="pull-left audiojs">
-                          <audio src="assets/audio/schwalbentanz_anne_freiberg_-_the_snowflake.mp3" preload="none" />
-                        </div>
-                        <div class="social-links pull-right">
-                          <a href="  www.soundcloud.com/anne-freiberg" target="_blank">
-                            <img src="assets/img/social/soundcloud_32.jpg" style="border:0;">
-                          </a>
-                          <a href="www.facebook.com/AnneFreibergMusik" target="_blank">
-                            <img src="assets/img/social/facebook_32.jpg" style="border:0;">
-                          </a>
+                        <div>
+                          <p class="text-left"><b class="initiale">M</b>usik von Anne Freiberg ‒ das ist akustisch geerdete Musik für alle, die gern zuhören und Geschichten erzählt bekommen.
+                            Für alle, die sich gern der Melancholie hingeben. Musik durchwoben von Poesie und Folk-Einflüssen, gepaart mit dem Charme des Unfertigen,
+                            des „Einfach mal machen“. Stets in enger Verbundenheit mit britischen sowie irischen
+                            <br>
+                            <br>
+                            Geboren und aufgewachsen in Zittau (Sachsen), lebt Anne Freiberg seit mehreren Jahren in Berlin und macht dort vor allem Musik und
+                            Theater mit kleinen und größeren Menschen in verschiedensten Kontexten, während das eigene Material meistens ruht, aber niemals verstummt.
+                            Gibt sie mal wieder ein kleines Konzert, dann ist das oft eine Art Familientreffen aus alten Zeiten.
+                            <br>
+                            <br>
+                            Von 2009 bis 2012 noch begleitet von einer vierköpfigen Band, entschied sie sich danach für den Alleingang oder kleinere,
+                            wechselnde Formationen ‒ reduziert auf ihre Quintessenz: Stimme, Gitarre und Authentizität...und zwischen den Songs eine Prise Selbstironie.
+                            <br>
+                            <br>
+                          </p>
+
+                          <div>
+                            <div >
+                              <audio controls >
+                                <source src="http://www.w3schools.com/html/horse.ogg" type="audio/ogg" />
+                                <source src="http://www.w3schools.com/html/horse.mp3" type="audio/mpeg" />
+                                <a href="http://www.w3schools.com/html/horse.mp3">horse</a>
+                                An html5-capable browser is required to play this audio.
+                              </audio>
+                            </div>
+
+                            <div class="pull-right">
+                              <a href="  www.soundcloud.com/anne-freiberg" target="_blank">
+                                <img src="assets/img/social/soundcloud_32.jpg" style="border:0;">
+                              </a>
+                              <a href="www.facebook.com/AnneFreibergMusik" target="_blank">
+                                <img src="assets/img/social/facebook_32.jpg" style="border:0;">
+                              </a>
+                            </div>
+
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </li>
+                  </article>
 
-                  <li  class="timeline-inverted">
-                    <div class="timeline-badge primary"></div>
-                    <div class="timeline-panel">
+                  <article class="timeline-entry">
+                    <div class="timeline-entry-inner">
+                      <time datetime="2014-01-10T03:45" class="timeline-time"><span>16:00 - 16:45 Uhr</span><span>Große Bühne</span></time>
+                      <div class="timeline-icon bg-green">
+                        <img src="assets/img/timeline/schwalbe_03.png">
+                      </div>
+                      <div class="timeline-label bg-green">
 
-                      <div class="timeline-heading clearfix"  >
                         <div class="media" style="background-color: #fbf3f0">
                           <div class="media-left">
                             <a href="#">
@@ -223,51 +239,62 @@
                           </div>
 
                           <div class="media-body" style="width:100%">
-                            <h4 class="media-heading">20:30 | <b>Benedikt Gramm</b></h4>
+                            <h4 class="media-heading"> <b>Benedikt Gramm</b></h4>
                             Berlin
                             <br>
                             <i>Liedermacher</i>
                           </div>
                         </div>
-                      </div>
 
-                      <div class="timeline-body">
-                        <p class="text-left">
-                          <b class="initiale">V</b>errückte Krankenschwestern, Leichenwagen, verkaterte Sonntage und die Liebe als unheilbare
-                          Krankheit. Über Themen wie diese singt Benedikt Gramm, zumeist in deutscher Sprache.
-                          <br>
-                          <br>
-                          Der Junge aus dem Süden hat mit unverstelltem Auge das Leben in Berlin analysiert und aufs Korn genommen. Dabei sind Lieder entstanden,
-                          die so brüllend komisch und gleichzeitig tragisch sind, dass man sich ihnen einfach nicht entziehen kann.  
-                          Live wird er dabei von dem genialen Gitarristen Nico Rotter begleitet.
-                        </p>
-                      </div>
-                      <div class="timeline-footer">
-                        <div class="audiojs pull-left">
-                          <audio src="assets/audio/schwalbentanz_benedikt_gramm_-_leichenwagen.mp3" preload="none" />
-                        </div>
+                        <div>
+                          <p class="text-left">
+                            <b class="initiale">V</b>errückte Krankenschwestern, Leichenwagen, verkaterte Sonntage und die Liebe als unheilbare
+                            Krankheit. Über Themen wie diese singt Benedikt Gramm, zumeist in deutscher Sprache.
+                            <br>
+                            <br>
+                            Der Junge aus dem Süden hat mit unverstelltem Auge das Leben in Berlin analysiert und aufs Korn genommen. Dabei sind Lieder entstanden,
+                            die so brüllend komisch und gleichzeitig tragisch sind, dass man sich ihnen einfach nicht entziehen kann.  
+                            Live wird er dabei von dem genialen Gitarristen Nico Rotter begleitet.
+                            <br>
+                            <br>
+                          </p>
 
-                        <div class="social-links pull-right">
-                          <a href="http://benediktgramm.com/" target="_blank">
-                            <img src="assets/img/social/www_32.jpg" style="border:0;">
-                          </a>
-                          <a href="http://benediktgramm.bandcamp.com/releases" target="_blank">
-                            <img src="assets/img/social/bandcamp_32.jpg" style="border:0;">
-                          </a>
-                          <a class="youtube" href="https://www.youtube.com/watch?v=Ch910fSORFg">
-                            <img src="assets/img/social/youtube_32.jpg" style="border:0;">
-                          </a>
+                          <div>
+                            <div >
+                              <audio controls >
+                                <source src="http://www.w3schools.com/html/horse.ogg" type="audio/ogg" />
+                                <source src="http://www.w3schools.com/html/horse.mp3" type="audio/mpeg" />
+                                <a href="http://www.w3schools.com/html/horse.mp3">horse</a>
+                                An html5-capable browser is required to play this audio.
+                              </audio>
+                            </div>
+
+                            <div class="pull-right">
+                              <a href="http://benediktgramm.com/" target="_blank">
+                                <img src="assets/img/social/www_32.jpg" style="border:0;">
+                              </a>
+                              <a href="http://benediktgramm.bandcamp.com/releases" target="_blank">
+                                <img src="assets/img/social/bandcamp_32.jpg" style="border:0;">
+                              </a>
+                              <a class="youtube" href="https://www.youtube.com/watch?v=Ch910fSORFg">
+                                <img src="assets/img/social/youtube_32.jpg" style="border:0;">
+                              </a>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </li>
+                  </article>
 
 
+                  <article class="timeline-entry">
+                    <div class="timeline-entry-inner">
+                      <time datetime="2014-01-10T03:45" class="timeline-time"><span>18:00 - 16:45 Uhr</span><span>Große Bühne</span></time>
+                      <div class="timeline-icon bg-primary">
+                        <img src="assets/img/timeline/schwalbe_01.png">
+                      </div>
+                      <div class="timeline-label bg-primary">
 
-                  <li>
-                    <div class="timeline-badge primary"></div>
-                    <div class="timeline-panel">
-                      <div class="timeline-heading clearfix">
                         <div class="media" style="background-color: black">
                           <div class="media-left">
                             <a href="#">
@@ -275,7 +302,7 @@
                             </a>
                           </div>
                           <div class="media-body">
-                            <h4 class="media-heading"  style="color: white">20:30 | <b>POSTMODERN ORCHESTRA</b></h4>
+                            <h4 class="media-heading"  style="color: white"><b>POSTMODERN ORCHESTRA</b></h4>
                             <p style="color: whitesmoke">
                               Oberlausitz
                               <br>
@@ -284,37 +311,49 @@
                           </div>
                         </div>
 
-                      </div>
-                      <div class="timeline-body">
-                        <p class="text-left"><b class="initiale">E</b>inmal gehört und verliebt - was die 8-köpfige
-                          Combo mit Klavier,Akkordeon, Cello, Gitarren und Schlagzeug da zaubert…sagenhaft!
-                        </p>
-                      </div>
-                      <div class="timeline-footer">
-                        <div class="pull-left">
-                          <audio  src="assets/audio/schwalbentanz_anne_freiberg_-_the_snowflake.mp3" style="background-color: white;" />
-                        </div>
-                        <div class="social-links pull-right">
-                          <a href="http://booking.postmodern-orchestra.de/" target="_blank">
-                            <img src="assets/img/social/www_32.jpg" style="border:0;">
-                          </a>
-                          <a href="www.facebook.com/postmodernorchestra/" target="_blank">
-                            <img src="assets/img/social/facebook_32.jpg" style="border:0;">
-                          </a>
-                          <a class="youtube" href="https://www.youtube.com/watch?v=yA8Brt-8SHo" target="_blank">
-                            <img src="assets/img/social/youtube_32.jpg" style="border:0;">
-                          </a>
+                        <div>
+                          <p class="text-left">
+                            <b class="initiale">E</b>inmal gehört und verliebt - was die 8-köpfige
+                            Combo mit Klavier,Akkordeon, Cello, Gitarren und Schlagzeug da zaubert…sagenhaft!
+                            <br>
+                            <br>
+                          </p>
+
+                          <div>
+                            <div >
+                              <audio controls >
+                                <source src="http://www.w3schools.com/html/horse.ogg" type="audio/ogg" />
+                                <source src="http://www.w3schools.com/html/horse.mp3" type="audio/mpeg" />
+                                <a href="http://www.w3schools.com/html/horse.mp3">horse</a>
+                                An html5-capable browser is required to play this audio.
+                              </audio>
+                            </div>
+
+                            <div class="pull-right">
+                              <a href="http://booking.postmodern-orchestra.de/" target="_blank">
+                                <img src="assets/img/social/www_32.jpg" style="border:0;">
+                              </a>
+                              <a href="www.facebook.com/postmodernorchestra/" target="_blank">
+                                <img src="assets/img/social/facebook_32.jpg" style="border:0;">
+                              </a>
+                              <a class="youtube" href="https://www.youtube.com/watch?v=yA8Brt-8SHo" target="_blank">
+                                <img src="assets/img/social/youtube_32.jpg" style="border:0;">
+                              </a>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </li>
+                  </article>
 
+                  <article class="timeline-entry">
+                    <div class="timeline-entry-inner">
+                      <time datetime="2014-01-10T03:45" class="timeline-time"><span>20:00 - 21:45 Uhr</span><span>Große Bühne</span></time>
+                      <div class="timeline-icon bg-blue">
+                        <img src="assets/img/timeline/schwalbe_04.png">
+                      </div>
+                      <div class="timeline-label bg-blue">
 
-
-                  <li  class="timeline-inverted">
-                    <div class="timeline-badge primary"></div>
-                    <div class="timeline-panel">
-                      <div class="timeline-heading clearfix" >
                         <div class="media" style="background-color: black">
                           <div class="media-left">
                             <a href="#">
@@ -323,7 +362,7 @@
                           </div>
 
                           <div class="media-body">
-                            <h4 class="media-heading"  style="color: white">20:30 | <b>Max Paul Maria Band</b></h4>
+                            <h4 class="media-heading"  style="color: white"><b>Max Paul Maria Band</b></h4>
                             <p style="color: whitesmoke">
                               Berlin
                               <br>
@@ -332,47 +371,58 @@
                           </div>
                         </div>
 
-                      </div>
-                      <div class="timeline-body">
-                        <p class="text-left">
-                          <b class="initiale">M</b>ax Paul Maria klingt genau so wie man sich einen guten Folksong vorstellt:
-                          Die Stimme rauchig und zornig, manchmal melancholisch, die Mundharmonika beschwört „Blowin´ in the Wind“ und die Texte erzählen von langen einsamen Straßen und davon, dass nichts bleibt wie es ist.
-                           <br>
-                          <br>
-                          Auf hunderten Konzerten in Deutschland, Frankreich und Portugal überzeugte er in den letzten Jahren wie rau und authentisch Folk auch heute noch klingen kann.
-                        </p>
-                      </div>
+                        <div>
+                          <p class="text-left">
+                            <b class="initiale">M</b>ax Paul Maria klingt genau so wie man sich einen guten Folksong vorstellt:
+                            Die Stimme rauchig und zornig, manchmal melancholisch, die Mundharmonika beschwört „Blowin´ in the Wind“ und die Texte erzählen von langen einsamen Straßen und davon, dass nichts bleibt wie es ist.
+                             <br>
+                            <br>
+                            Auf hunderten Konzerten in Deutschland, Frankreich und Portugal überzeugte er in den letzten Jahren wie rau und authentisch Folk auch heute noch klingen kann.
+                            <br>
+                            <br>
+                          </p>
 
-                      <div class="timeline-footer">
-                        <div class="pull-left audiojs">
-                          <audio src="assets/audio/schwalbentanz_max_paul_maria_-_anchor.mp3" preload="none" />
-                        </div>
+                          <div>
+                            <div >
+                              <audio controls >
+                                <source src="http://www.w3schools.com/html/horse.ogg" type="audio/ogg" />
+                                <source src="http://www.w3schools.com/html/horse.mp3" type="audio/mpeg" />
+                                <a href="http://www.w3schools.com/html/horse.mp3">horse</a>
+                                An html5-capable browser is required to play this audio.
+                              </audio>
+                            </div>
 
-                        <div class="social-links pull-right">
-                          <a href="https://maxpaulmaria.com" target="_blank">
-                            <img src="assets/img/social/www_32.jpg" style="border:0;">
-                          </a>
-                          <a href="https://maxpaulmaria.bandcamp.com/" target="_blank">
-                            <img src="assets/img/social/bandcamp_32.jpg" style="border:0;">
-                          </a>
-                          <a href="https://www.facebook.com/maxpaulmaria" target="_blank">
-                            <img src="assets/img/social/facebook_32.jpg" style="border:0;">
-                          </a>
-                          <a href="https://soundcloud.com/maxpaulmaria " target="_blank">
-                            <img src="assets/img/social/soundcloud_32.jpg" style="border:0;">
-                          </a>
-                          <a class="youtube" href="https://www.youtube.com/watch?v=ut5p1cypo40" target="_blank">
-                            <img src="assets/img/social/youtube_32.jpg" style="border:0;">
-                          </a>
+                            <div class="pull-right">
+                              <a href="https://maxpaulmaria.com" target="_blank">
+                                <img src="assets/img/social/www_32.jpg" style="border:0;">
+                              </a>
+                              <a href="https://maxpaulmaria.bandcamp.com/" target="_blank">
+                                <img src="assets/img/social/bandcamp_32.jpg" style="border:0;">
+                              </a>
+                              <a href="https://www.facebook.com/maxpaulmaria" target="_blank">
+                                <img src="assets/img/social/facebook_32.jpg" style="border:0;">
+                              </a>
+                              <a href="https://soundcloud.com/maxpaulmaria " target="_blank">
+                                <img src="assets/img/social/soundcloud_32.jpg" style="border:0;">
+                              </a>
+                              <a class="youtube" href="https://www.youtube.com/watch?v=ut5p1cypo40" target="_blank">
+                                <img src="assets/img/social/youtube_32.jpg" style="border:0;">
+                              </a>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </li>
+                  </article>
 
-                  <li>
-                    <div class="timeline-badge primary"></div>
-                    <div class="timeline-panel">
-                      <div class="timeline-heading clearfix"  >
+
+                  <article class="timeline-entry">
+                    <div class="timeline-entry-inner">
+                      <time datetime="2014-01-10T03:45" class="timeline-time"><span>22:00 - 23:45 Uhr</span><span>Große Bühne</span></time>
+                      <div class="timeline-icon bg-dark">
+                        <img src="assets/img/timeline/schwalbe_05.png">
+                      </div>
+                      <div class="timeline-label bg-dark">
 
                         <div class="media" style="background-color: #fbf3f0">
                           <div class="media-left">
@@ -382,64 +432,69 @@
                           </div>
 
                           <div class="media-body">
-                            <h4 class="media-heading"  >20:30 | <b> Skazka Orchestra</b></h4>
-                            <p>
+                            <h4 class="media-heading" > <b> Skazka Orchestra</b></h4>
                               Berlin
                               <br>
                               <i>Balkan/Ska</i>
-                            </p>
+                          </div>
+                        </div>
+
+                        <div>
+                          <p class="text-left">
+                            <br> <b class="initiale">E</b>in Abend voller Lebensfreude - ehrlich und gutgelaunt erzählen Skazka Orchestra
+                            ihre verrückten Märchen.Artur Gorlatschov und Valentin Butt - als Kinder aus Russland abgehauen,
+                            um die bunte Stadt Berlin zu entdecken, studierten an der Hochschule für Musik „Hanns Eisler“ Akkordeon
+                            und Biertrinken.
+                            <br>
+                            <br>
+                            Mit Kontrabass, Posaune, Trompete und Schlagzeug begeistert die mittlerweile 8-köpfige
+                            Truppe auf hohem musikalischen Niveau mit einem einzigartigen Mix aus russischen Folk, Klezmer, Ska, Balkanmusik,
+                            lateinamerikanische Rhythmen und Jazz.Mitglieder der Berliner Philharmonikern, dem Jugendjazzorchester,
+                            der WDR Big Band oder dem Berliner Ensemble treffen sich zwischen Hochzeit und Rave, Folkfans und Partycrowd,
+                            Theater und Kinderspielplatz - Pauken und Trompeten, was ein Fest!
+                            <br>
+                            <br>
+                          </p>
+
+                          <div>
+                            <div >
+                              <audio controls >
+                                <source src="http://www.w3schools.com/html/horse.ogg" type="audio/ogg" />
+                                <source src="http://www.w3schools.com/html/horse.mp3" type="audio/mpeg" />
+                                <a href="http://www.w3schools.com/html/horse.mp3">horse</a>
+                                An html5-capable browser is required to play this audio.
+                              </audio>
+                            </div>
+
+                            <div class="pull-right">
+                              <a href="https://www.  skazka-orchestra.de/" target="_blank">
+                                <img src="assets/img/social/www_32.jpg" style="border:0;">
+                              </a>
+                              <a href=" https://soundcloud.com/skazkaorchestra /" target="_blank">
+                                <img src="assets/img/social/soundcloud_32.jpg" style="border:0;">
+                              </a>
+                              <a href="https://www.facebook.com/skazkaorchestra/" target="_blank">
+                                <img src="assets/img/social/facebook_32.jpg" style="border:0;">
+                              </a>
+                              <a class="youtube" href="https://www.youtube.com/watch?v=PAm8CIvP38c" target="_blank">
+                                <img src="assets/img/social/youtube_32.jpg" style="border:0;">
+                              </a>
+                            </div>
                           </div>
                         </div>
                       </div>
-                      <div class="timeline-body">
-                        <p class="text-left">
-                          <b class="initiale">E</b>in Abend voller Lebensfreude - ehrlich und gutgelaunt erzählen Skazka Orchestra
-                          ihre verrückten Märchen.Artur Gorlatschov und Valentin Butt - als Kinder aus Russland abgehauen,
-                          um die bunte Stadt Berlin zu entdecken, studierten an der Hochschule für Musik „Hanns Eisler“ Akkordeon
-                          und Biertrinken.
-                          <br>
-                          <br>
-                          Mit Kontrabass, Posaune, Trompete und Schlagzeug begeistert die mittlerweile 8-köpfige
-                          Truppe auf hohem musikalischen Niveau mit einem einzigartigen Mix aus russischen Folk, Klezmer, Ska, Balkanmusik,
-                          lateinamerikanische Rhythmen und Jazz.Mitglieder der Berliner Philharmonikern, dem Jugendjazzorchester,
-                          der WDR Big Band oder dem Berliner Ensemble treffen sich zwischen Hochzeit und Rave, Folkfans und Partycrowd,
-                          Theater und Kinderspielplatz - Pauken und Trompeten, was ein Fest!
-                        </p>
-                      </div>
-
-                      <div class="timeline-footer">
-                        <div class="pull-left audiojs">
-                          <audio src="assets/audio/schwalbentanz_skazka_orchestra_-_cliche_no1.mp3" preload="none" />
-                        </div>
-                        <div class="social-links pull-right">
-                          <a href="https://www.  skazka-orchestra.de/" target="_blank">
-                            <img src="assets/img/social/www_32.jpg" style="border:0;">
-                          </a>
-                          <a href=" https://soundcloud.com/skazkaorchestra /" target="_blank">
-                            <img src="assets/img/social/soundcloud_32.jpg" style="border:0;">
-                          </a>
-                          <a href="https://www.facebook.com/skazkaorchestra/" target="_blank">
-                            <img src="assets/img/social/facebook_32.jpg" style="border:0;">
-                          </a>
-                          <a class="youtube" href="https://www.youtube.com/watch?v=PAm8CIvP38c" target="_blank">
-                            <img src="assets/img/social/youtube_32.jpg" style="border:0;">
-                          </a>
-                          </a>
-                        </div>
-                      </div>
                     </div>
-                  </li>
+                  </article>
 
-                  <li class="clearfix" style="float: none;"></li>
-                </ul>
+
+                </div>
               </div>
-              <!-- ENDE TIMELINE-->
-
             </div>
-          </div>
         </div>
       </div>
     </section>
+
+
     <section id="programm" class="page">
       <div class="container">
           <div class="row">
@@ -862,7 +917,7 @@
     <footer id="footer">
       <div class="container">
 
-        <div class=""row extra-bottom-padding">
+        <div class="row extra-bottom-padding">
           <div class="col-md-12">
             <h3>Partner</h3>
           </div>
@@ -891,7 +946,7 @@
             </a>
           </div>
         </div>
-        <div class=row extra-bottom-padding">
+        <div class="row extra-bottom-padding">
           <div class="col-md-12">
             <h3>Sponsoren</h3>
           </div>
@@ -936,20 +991,7 @@
     <script src="assets/js/jquery.nav.min.js"></script>
     <script src="assets/js/jquery.appear.min.js"></script>
     <script src="assets/js/venobox.min.js"></script>
-
-
-
-<script src="assets/js/audiojs/audio.js"></script>
-
-  <script>
-    audiojs.events.ready(function() {
-      var as = audiojs.createAll();
-    });
-  </script>
-
-
-
-
+    <script src="assets/js/bootstrap3_player.js"></script>
 
 
   </body>
