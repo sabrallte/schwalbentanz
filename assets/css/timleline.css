@@ -321,3 +321,22 @@
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p .timeline-img.pull-right {
     margin: 5px 0 0 10px;
 }
+
+@media (max-width: 767px) {
+    .timeline-centered .timeline-entry .timeline-entry-inner .timeline-time {position: static}
+
+    .timeline-centered {
+        padding-left: 20px;
+    }
+
+    .timeline-centered .timeline-entry {
+    width: 100%;
+
+    }
+
+
+}
+
+@media (max-width: 480px) {
+
+}
