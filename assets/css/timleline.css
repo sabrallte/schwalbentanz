@@ -335,7 +335,37 @@
     }
 
 
+
+
 }
+
+@media (max-width: 767px) {
+    .timeline-centered:before {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 0px;
+        background: black;
+        top: 20px;
+        bottom: 20px;
+        margin-left: -4px;
+    }
+
+    .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label:after {
+
+        border-style: none;
+
+    }
+    .timeline-centered .timeline-entry .timeline-entry-inner{
+        margin-left: -20px;
+    }
+
+    .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
+        margin-left: 0%;
+    }
+
+}
+
 
 @media (max-width: 480px) {
 
