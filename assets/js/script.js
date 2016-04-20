@@ -93,8 +93,22 @@ $(document).ready(function () {
     initAnimations();
     backgroundColorHandler('#festival',235, 211, 94);
     //backgroundColorHandler('#programm',125, 160, 206);
+    play_just_one_song_at_same_time();
 
 });
+
+function play_just_one_song_at_same_time(){
+    $("audio").on("play", function() {
+        $("audio").not(this).each(function(index, audio) {
+            audio.pause();
+        });
+    });
+};
+
+
+
+
+
 $(window).load(function () {
     $(".loader .fading-line").fadeOut();
     $(".loader").fadeOut("slow");
