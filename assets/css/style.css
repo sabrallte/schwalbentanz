@@ -385,13 +385,29 @@ a:focus {
   .page .content.cover { padding: 160px 0 }
   #testimonials .quote { padding: 0 50px }
   #testimonials .carousel-control.right { right: 10px }
-
 }
+
 @media (max-width: 480px) { 
   .page .content.cover { padding: 80px 0 }
   #portfolio .items li { width: 100% }
   #testimonials .quote { padding: 0 30px }
 }
+
+audio {
+  width: 45px;
+}
+
+audio:hover{
+  -webkit-transition: width 1s ease-in-out;
+  -moz-transition: width 1s ease-in-out;
+  -o-transition: width 1s ease-in-out;
+  transition: width 1s ease-in-out;
+  width:50%;
+}
+
+
+
+
 
 /* Navigation zentrieren*/
 .navbar .navbar-nav {
