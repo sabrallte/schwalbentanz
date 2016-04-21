@@ -421,29 +421,13 @@ a:focus {
 }
 
 .social-links a img {
-  -webkit-transform: rotate(45deg) scale(1.05);
-  transform: rotate(45deg) scale(1.05);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-  margin-right: 20px;
 }
 
 .social-links a:hover img {
-  -webkit-transform: rotate(0deg) scale(1);
-  transform: rotate(0deg) scale(1);
-
-}
-
-/* Rotate */
-.hover06 figure img {
-  -webkit-transform: rotate(15deg) scale(1.4);
-  transform: rotate(15deg) scale(1.4);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-}
-.hover06 figure:hover img {
-  -webkit-transform: rotate(0deg) scale(1);
-  transform: rotate(0deg) scale(1);
+  -webkit-transform:  scale(1.2);
+  transform:  scale(1.2);
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
 }
 
 
