@@ -32,6 +32,8 @@ function initPortfolio () {
     var items = $('.items', portfolio); 
     var filters = $('.filters li a', portfolio);
 
+    $('#hero-img').css('margin-top', (($(window).height()/2 - $('#hero-img').height()/2))-55);
+
     items.imagesLoaded(function() {
         items.isotope({
             itemSelector: '.item',
@@ -91,7 +93,7 @@ $(document).ready(function () {
     initNavbar();
     initPortfolio();
     initAnimations();
-    backgroundColorHandler('#festival',235, 211, 94);
+    backgroundColorHandler('#festival',90, 95, 128);
     //backgroundColorHandler('#programm',125, 160, 206);
     play_just_one_song_at_same_time();
 
@@ -130,7 +132,7 @@ function handleTweets(tweets) {
 
 function backgroundColorHandler(element,red, green, blue) {
 
-    var softener = 100;
+    var softener = 300;
     var element_without_hash = element.replace("#","")
 
     $(window).scroll(function () {

@@ -91,7 +91,7 @@
 }
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-time {
     position: absolute;
-    left: -150px;
+    left: -170px;
     text-align: right;
     padding: 10px;
     -webkit-box-sizing: border-box;
@@ -333,10 +333,6 @@
     width: 100%;
 
     }
-
-
-
-
 }
 
 @media (max-width: 767px) {

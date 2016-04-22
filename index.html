@@ -7,11 +7,10 @@
     <meta name="description" content="Schwalbentanz Festival - 27.08.2016 - Lückendorf">
     <link rel="shortcut icon" href="assets/ico/fav.ico">
     <title>Schwalbentanz Festival - 27.08.2016 - Lückendorf</title>
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="assets/css/bootstrap_3_3_1.css">
-    <!-- Für Youtube Modal Player funktioniert <link rel="stylesheet" href="assets/css/bootstrap_3_3_1.css"> -->
-
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mediaqueries.css">
     <link rel="stylesheet" href="assets/css/venobox.css">
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
@@ -39,8 +38,8 @@
       <div class="container">
           <div class="row">
             <div class="col-lg-12">
-              <div class="text-center">
-                <img class="img-responsive center-block" src="assets/img/cover/home.jpg">
+              <div id="hero-div" class="text-center">
+               <a href="#festival"><img id="hero-img" class="img-responsive center-block" src="assets/img/cover/home.jpg"></a>
               </div>
             </div>
           </div>
@@ -103,26 +102,23 @@
         <div class="content text-center ">
           <div class="row">
 
-            <div class="col-md-6">
-              <div class="heading home-body" id="introduction">
+            <div class="col-md-12">
+              <div class="heading home-body" id="introduction" >
                   <div class="non-semantic-protector">
                     <h1 class="ribbon">
-                      <strong class="ribbon-content">Schwalbentanz Open-Air 2016</strong>
+                      <strong class="ribbon-content"><h2>Schwalbentanz Open-Air 2016</h2></strong>
                     </h1>
-                    <p class="text-justify">
                       <b class="initiale">M</b>usik,
                       Kunst und Kultur-Spektakel
                       mit internationalen Live-Bands
                       und ausgefallenem Rahmenprogramm.
                       Ein fantastischer farbenprächtiger Zirkus für jung und alt.
-                    </p>
                     <br>
                     <br>
                     <h1>Luftkurort Lückendorf<br>Festplatz </h1> 
                     <h2>27.8.2016  <br> Beginn: 12.00</h2>
                   </div>
-                  <p class="text-justify">
-                      <b class="initiale">D</b>öffnet einen Tag und eine Nacht lang die Türen zu einer bunten Spiel- und Erlebnis-Welt für kleine und große Kinder.
+                    <b class="initiale">D</b>öffnet einen Tag und eine Nacht lang die Türen zu einer bunten Spiel- und Erlebnis-Welt für kleine und große Kinder.
                     Ein aufwändig geschmücktes Ambiente, feinste Verpflegung und grandiose Bands.
                     <br>
                     <br>
@@ -140,17 +136,9 @@
                     <br>
                     <br>
                     Eine freundliche Empfehlung zum Beisammensein!
-                  </p>
-              </div>
-            </div>
-
-            <div class="col-md-6">
-              <div class="heading home-body" id="news">
-                <h2>Aktuelles</h2>
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
@@ -807,6 +795,25 @@
             <div class="heading">
               <h2>TICKETS</h2>
               <div class="border"></div>
+              <div class="grd">
+                <div class="col-md-4">
+                  <div class="pricing-ico" id="prc-1"></div>
+                  <h2>Vorverkauf</h2>
+                  <span class="label label-primary">8€</span>
+
+                </div>
+                <div class="col-md-4">
+                  <div class="pricing-ico" id="prc-2"></div>
+                  <h2>Abendkasse</h2>
+                  <span class="label label-primary">12€</span>
+                </div>
+                <div class="col-md-4">
+                  <div class="pricing-ico" id="prc-3"></div>
+                  <h2>Kinder bis 14 Jahre</h2>
+                  <span class="label label-primary">EINTRITT FREI</span>
+
+                </div>
+              </div>
                 <p>
                   <b class="initiale">D</b>er VVK für das Fest läuft.
                   Eintrittskarten erhältlich an folgenden Lieblingsorten:
@@ -814,8 +821,8 @@
             </div>
           </div>
 
-          <div class="row" style="padding: 20px;">
-            <div class="col-md-4 resale" style="border:4px solid #7da0ce; border-bottom: 0px; border-right: 0px; border-radius: 2px;">
+          <div id="resale" class="row" style="padding: 20px;">
+            <div class="col-md-4 resale" style="border:4px solid #0093cf; border-top: 0px; border-right: 0px; border-radius: 2px; margin-top: 0; ">
               <h2>Fame - Graffiti- & Skateshop</h2>
                 Innere Weberstraße 18,<br> 02763 Zittau <br>
                 Tel: 03583 - 50 733 56
@@ -831,7 +838,7 @@
               Öffnungszeiten:
               täglich ab 19 Uhr geöffnet
             </div>
-            <div class="col-md-4 resale" style="border:4px solid #7da0ce; border-top: 0px; border-left: 0px; border-radius: 2px;">
+            <div class="col-md-4 resale" style="border:4px solid #0093cf; border-top: 0px; border-left: 0px; border-radius: 2px;">
               <h2>Blockhütte</h2>
               Ecke Kammstraße - Hochwaldstraße,<br> 02797 Lückendorf<br>
               <br>
@@ -840,12 +847,10 @@
             </div>
           </div>
 
-          <div class="row">
-            <h3><span class="label label-primary">Preise: VVK:  8€ , KASSE: 12€,  Kinder bis 14 Jahre - EINTRITT FREI</span></h3>
-          </div>
-
         </div>
+
       </div>
+
     </section>
 
     <section id="hochwald_interlude">
@@ -974,13 +979,9 @@
               <img class="media-object" src="assets/img/sponsor/pohl_raumdesign.png">
             </a>
           </div>
-          <div class="col-md-3 animated hiding" data-animation="fadeInUp">
-            <a href="http://www.pohl-raumdesign.de/index.html" target="_blank">
-              <img class="media-object" src="assets/img/partner/aa_net.gif"></a>
-          </div>
-          <div class="col-md-3 animated hiding" data-animation="fadeInUp">
-            <a href="http://www.pohl-raumdesign.de/index.html" target="_blank">
-              <img class="media-object" src="assets/img/partner/emil_dachlogo.png"></a>
+          <div class="col-md-6 animated hiding" data-animation="fadeInUp">
+            <a href="http://www.pivovarcvikov.cz/de/" target="_blank">
+              <img class="media-object" src="assets/img/sponsor/cvicov.png"></a>
           </div>
         </div>
 

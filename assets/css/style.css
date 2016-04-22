@@ -5,7 +5,7 @@ By: Hasan Alibegic, hasan461@gmail.com
 License: Apache License v2.0
 */
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Open Sans', sans-serif !important;
   color: #444;
   font-size: 16px;
 }
@@ -130,9 +130,15 @@ a:focus {
 .page .content { padding: 60px 0 }
 .page .content.cover { padding: 0px 0 }
 .page .heading h2 {
-  margin-top: 0;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
+
+.ribbon-content > h2 {
+  font-size: 24px !important;
+  line-height: 0;
+}
+
 .page .border {
   width: 50%;
   height: 2px;
@@ -143,18 +149,13 @@ a:focus {
 #home {
   padding: 0;
   color: #000;
-
-}
-
-.home-logo {
-
-
 }
 
 .home-body{
   border: solid;
   border-width: 1px;
-  background-color: white;
+ border-radius: 5px;
+  background-color: lightyellow;
   padding: 20px;
 
 }
@@ -175,7 +176,7 @@ a:focus {
 }
 
 #bands {
-  background-color: #DCCE86;
+  background-color: #E9CE6E;
 }
 #festival .service i { margin-top: 60px }
 #festival .service:hover i { color: #71be3c }
@@ -235,7 +236,7 @@ a:focus {
 }
 #programm {
   color: #fff;
-  background-color: #7da0ce;
+  background-color: #0093cf;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -371,27 +372,6 @@ a:focus {
 .bands .title {
   color: #222;
 }
-/* Responsive style */
-@media screen and (max-width: 1024px) { 
-  #testimonials .carousel-control { display: block }
-}
-@media screen and (max-width: 991px) { 
-  #portfolio .items li { width: 50% }
-  #testimonials .quote { padding: 0 70px }
-  #news {border-top-width: 0px;}
-  #introduction{border-bottom-width: 0px; }
-}
-@media (max-width: 767px) { 
-  .page .content.cover { padding: 160px 0 }
-  #testimonials .quote { padding: 0 50px }
-  #testimonials .carousel-control.right { right: 10px }
-}
-
-@media (max-width: 480px) { 
-  .page .content.cover { padding: 80px 0 }
-  #portfolio .items li { width: 100% }
-  #testimonials .quote { padding: 0 30px }
-}
 
 audio {
   width: 45px;
@@ -519,5 +499,45 @@ audio:hover{
 }
 
 .resale{
-padding-bottom: 20px;
+  padding-bottom: 20px;
+  margin-top: 7px;
+}
+
+#hero-div {
+  height: calc(100vh - 55px);
+}
+
+.label{
+  font-weight: 400;
+  background-color: #0093cf;
+}
+
+.grd > .col-md-4{
+  margin: 60px 0 60px 0;
+}
+
+.pricing-ico{
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  background-size: cover;
+}
+
+#prc-1{
+  background:url('../img/tickets/cinema.svg');
+  background-size: cover;
+}
+#prc-2{
+  background:url('../img/tickets/interface.svg');
+  background-size: cover;
+}
+#prc-3{
+  background:url('../img/tickets/people.svg');
+  background-size: cover;
+}
+
+/* TYPO GELÖT */
+h2{
+  font-size: 32px !important;
+  font-weight: 800;
 }
