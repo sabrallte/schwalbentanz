@@ -476,14 +476,34 @@ audio:hover{
   padding-bottom:5px;
 }
 
-.programm-location {
-  padding-top: 10px;
-  padding-right: 25px;
+.programm-heading{
+  width: 100%;
+  display: inline-table;
+  padding-bottom: 10px;
+
 }
 
-.programm-text{
-  padding-top: 20px;
+.programm-name{
+  display: table-cell;
 }
+
+.programm-location {
+  padding-top: 7px;
+  padding-right: 0px;
+  font-size: 110%;
+  display: table-cell;
+  text-align: right;
+}
+
+.programm-location > span {
+}
+
+
+.programm-text{
+  text-align: justify;
+}
+
+
 
 .extra-bottom-padding {
   padding-bottom: 20px;
@@ -540,4 +560,9 @@ audio:hover{
 h2{
   font-size: 32px !important;
   font-weight: 800;
+}
+
+.label-programm-time{
+  background-color: #8BCEC1;
+  color: #333;
 }
