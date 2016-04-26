@@ -107,6 +107,12 @@ function play_just_one_song_at_same_time(){
     });
 };
 
+//Navbar in Responisve Anischt nach Auswahl eines Items schliessen
+$(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
+        $(this).collapse('hide');
+    }
+});
 
 
 
