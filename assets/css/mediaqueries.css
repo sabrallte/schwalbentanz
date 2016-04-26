@@ -13,6 +13,14 @@
         border-right: 0px;
         border-radius: 2px;
     }
+
+    .festival-ticket-img{
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+
+    }
+
 }
 @media (max-width: 767px) {
     .page .content.cover { padding: 160px 0 }
@@ -20,6 +28,8 @@
     #testimonials .carousel-control.right { right: 10px }
     .ribbon-content > h2 {line-height: 1em;}
     .contact-info {padding-left: 30px;}
+
+
 }
 
 @media (max-width: 480px) {

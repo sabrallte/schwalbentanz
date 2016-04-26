@@ -164,6 +164,7 @@ a:focus {
 }
 
 .apple{
+  margin-top: 40px;
   background: rgba(233,206,139,0.5);
   border: 0px solid #FFF;
   border-radius: 0px;
