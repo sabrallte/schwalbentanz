@@ -510,6 +510,10 @@ audio:hover{
 
 }
 
+.extra-bottom-padding > div{
+  padding-bottom: 30px;
+}
+
 
 .row-eq-height {
   display: -webkit-box;
@@ -522,6 +526,14 @@ audio:hover{
   padding-bottom: 20px;
   margin-top: 7px;
 }
+
+.resale-top {
+  border:4px solid #0093cf;
+  border-top: 0px;
+  border-right: 0px;
+  border-radius: 2px;
+}
+
 
 #hero-div {
   height: calc(100vh - 55px);
