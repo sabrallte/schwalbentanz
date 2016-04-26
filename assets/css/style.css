@@ -152,12 +152,24 @@ a:focus {
 }
 
 .home-body{
-  border: solid;
-  border-width: 1px;
- border-radius: 5px;
-  background-color: lightyellow;
   padding: 20px;
+  background: lightyellow;
+  border: 1px solid #FFF;
+  box-shadow: 1px 2px 4px rgba(0,0,0,.4);
 
+}
+
+.festival-ticket-img{
+  padding: 20px 0  20px;
+}
+
+.apple{
+  background: rgba(233,206,139,0.5);
+  border: 0px solid #FFF;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  box-shadow: 1px 2px 4px rgba(0,0,0,.4);
 }
 
 #home h1 {
