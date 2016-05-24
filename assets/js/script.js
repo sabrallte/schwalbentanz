@@ -27,35 +27,12 @@ function initNavbar() {
         }
     });
 }
-function initPortfolio () {
-    var portfolio = $('#portfolio');
-    var items = $('.items', portfolio); 
-    var filters = $('.filters li a', portfolio);
+function centerHero () {
+
 
     $('#hero-img').css('margin-top', (($(window).height()/2 - $('#hero-img').height()/2))-55);
 
-    items.imagesLoaded(function() {
-        items.isotope({
-            itemSelector: '.item',
-            layoutMode: 'fitRows',
-            transitionDuration: '0.7s'
-        });
-    });
-    
-    filters.click(function(){
-        var el = $(this);
-        filters.removeClass('active');
-        el.addClass('active');
-        var selector = el.attr('data-filter');
-        items.isotope({ filter: selector });
-        return false;
-    });
 
-    $('.item a', items).venobox({
-        border: '0 10px',
-        numeratio: true,
-        infinigall: true
-    }); 
 }
 function initAnimations() {
     $('.animated').appear(function () {
@@ -87,32 +64,18 @@ function initAnimations() {
 
 
 $(document).ready(function () {
+    centerHero();
     initNavbar();
-    initPortfolio();
-    initAnimations();
     backgroundColorHandler('#festival',90, 95, 128);
     //backgroundColorHandler('#programm',125, 160, 206);
     play_just_one_song_at_same_time();
-    init_lang_links();
+    initAnimations();
 
 
 
 });
 
 
-function init_lang_links(){
-    //Aufgrund einer Anomalie in der nav Klasse/Skript muss dieser Hack herhalten
-
-    document.getElementById("cz").onclick = function () {
-        location.href = "index-cz.html";
-    };
-    document.getElementById("de").onclick = function () {
-        location.href = "index.html";
-    };
-    document.getElementById("pl").onclick = function () {
-        location.href = "index-pl.html";
-    };
-}
 
 function play_just_one_song_at_same_time(){
     $("audio").on("play", function() {
