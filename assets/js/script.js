@@ -85,10 +85,7 @@ function initAnimations() {
 	});
 }
 
-function initTwitterFeed() {
-    /* More about fetch params on http://www.jasonmayes.com/projects/twitterApi */
-    twitterFetcher.fetch('500674157688782849', '', 1, true, false, false, '', true, handleTweets, false);
-}
+
 $(document).ready(function () {
     initNavbar();
     initPortfolio();
@@ -96,8 +93,26 @@ $(document).ready(function () {
     backgroundColorHandler('#festival',90, 95, 128);
     //backgroundColorHandler('#programm',125, 160, 206);
     play_just_one_song_at_same_time();
+    init_lang_links();
+
+
 
 });
+
+
+function init_lang_links(){
+    //Aufgrund einer Anomalie in der nav Klasse/Skript muss dieser Hack herhalten
+
+    document.getElementById("cz").onclick = function () {
+        location.href = "index-cz.html";
+    };
+    document.getElementById("de").onclick = function () {
+        location.href = "index.html";
+    };
+    document.getElementById("pl").onclick = function () {
+        location.href = "index-pl.html";
+    };
+}
 
 function play_just_one_song_at_same_time(){
     $("audio").on("play", function() {
@@ -107,7 +122,7 @@ function play_just_one_song_at_same_time(){
     });
 };
 
-//Navbar in Responisve Anischt nach Auswahl eines Items schliessen
+//Navbar in Responisve Ansicht nach Auswahl eines Items schliessen
 $(document).on('click','.navbar-collapse.in',function(e) {
     if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
         $(this).collapse('hide');
@@ -121,20 +136,7 @@ $(window).load(function () {
     $(".loader .fading-line").fadeOut();
     $(".loader").fadeOut("slow");
 });
-function handleTweets(tweets) {
-    var element = document.getElementById('feed');
-    if (element) {
-        var x = tweets.length;
-        var n = 0;
-        var html = '<ul class="list-inline">';
-        while (n < x) {
-            html += '<li>' + tweets[n] + '</li>';
-            n++;
-        }
-        html += '</ul>';
-        element.innerHTML = html;
-    }
-}
+
 
 function backgroundColorHandler(element,red, green, blue) {
 

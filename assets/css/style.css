@@ -591,3 +591,8 @@ h2{
   background-color: #8BCEC1;
   color: #333;
 }
+
+.centerBlock {
+  display: table;
+  margin: 0 auto;
+}
