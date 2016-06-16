@@ -568,20 +568,23 @@ audio:hover{
   background-size: cover;
 }
 
+#prc-1,
+#prc-2,
+#prc-3{
+    background-size: cover;
+}
+
 #prc-1{
   background:url('../img/tickets/cinema.svg');
-  background-size: cover;
 }
 #prc-2{
   background:url('../img/tickets/interface.svg');
-  background-size: cover;
 }
 #prc-3{
   background:url('../img/tickets/people.svg');
-  background-size: cover;
 }
 
-/* TYPO GELÖT */
+/* TYPO GELOET */
 h2{
   font-size: 32px !important;
   font-weight: 800;
@@ -595,4 +598,10 @@ h2{
 .centerBlock {
   display: table;
   margin: 0 auto;
+}
+
+.flex-hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

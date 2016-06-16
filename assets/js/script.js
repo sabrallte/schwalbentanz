@@ -30,7 +30,7 @@ function initNavbar() {
 function centerHero () {
 
 
-    $('#hero-img').css('margin-top', (($(window).height()/2 - $('#hero-img').height()/2))-55);
+    
 
 
 }
