@@ -133,12 +133,10 @@ a:focus {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
 .ribbon-content > h2 {
   font-size: 24px !important;
   line-height: 0;
 }
-
 .page .border {
   width: 50%;
   height: 2px;
@@ -150,19 +148,15 @@ a:focus {
   padding: 0;
   color: #000;
 }
-
 .home-body{
   padding: 20px;
   background: lightyellow;
   border: 1px solid #FFF;
   box-shadow: 1px 2px 4px rgba(0,0,0,.4);
-
 }
-
 .festival-ticket-img{
   padding: 20px 0  20px;
 }
-
 .apple{
   margin-top: 40px;
   background: rgba(233,206,139,0.5);
@@ -172,7 +166,6 @@ a:focus {
   -webkit-border-radius: 0px;
   box-shadow: 1px 2px 4px rgba(0,0,0,.4);
 }
-
 #home h1 {
   margin-top: 0;
   margin-bottom: 20px;
@@ -187,7 +180,6 @@ a:focus {
   background-color: #f5f5f5;
   border-bottom: solid 1px #e7e7e7;
 }
-
 #bands {
   background-color: #E9CE6E;
 }
@@ -342,7 +334,6 @@ a:focus {
   margin-bottom: 10px;
   color: #00aced;
 }
-
 #hochwald_interlude{
   background: url(../img/cover/contact.jpg);
   background-repeat: no-repeat;
@@ -350,8 +341,6 @@ a:focus {
   background-size:  inherit;
   height: 160px;
 }
-
-
 #contact {
   background-color: #000000;
   padding-bottom: 40px;
@@ -385,11 +374,9 @@ a:focus {
 .bands .title {
   color: #222;
 }
-
 audio {
   width: 45px;
 }
-
 audio:hover{
   -webkit-transition: width 1s ease-in-out;
   -moz-transition: width 1s ease-in-out;
@@ -397,11 +384,6 @@ audio:hover{
   transition: width 1s ease-in-out;
   width:50%;
 }
-
-
-
-
-
 /* Navigation zentrieren*/
 .navbar .navbar-nav {
   display: inline-block;
@@ -410,76 +392,51 @@ audio:hover{
 .navbar .navbar-collapse {
   text-align: center;
 }
-
 /* Font der Navigation */
-
 .navbar-nav > li > a {
   font-family: DKJohnBrown;
   font-size: 24px;
 }
-
 #map {
   width: 100%;
   height: 300px;
   margin-top: 0px;
   background-color: #ffff00;
-
 }
-
-.social-links {
-}
-
-.social-links a img {
-}
-
 .social-links a:hover img {
   -webkit-transform:  scale(1.2);
   transform:  scale(1.2);
   -webkit-transition: .2s ease-in-out;
   transition: .2s ease-in-out;
 }
-
-
 .social-www {
   background-color: gold;
   height: 32px;
   width:40px;
   padding-right: 2px;
 }
-
 .media-body{
   width:100%;
   padding: 20px;
 }
-
-
 .initiale{
   font-family: DKJohnBrown;
   font-size: 200%;
   padding-right: 2px;
 }
-
 .audiojs {
   width: 50px;
   height: 32px;
   background-image: none;
   background: #eddd8a;
   box-shadow: none;
-
 }
-
 .audiojs:hover {
   background: #EBD35E;
 }
-
 /*Programm*/
-
 .programm-icon{
   padding-top: 30px;
-/*  border-color: white;
-  border-style: solid;
-  border-width: 0px 0px 0px 2px;*/
-
 }
 .text{
   text-align:left;
@@ -488,18 +445,14 @@ audio:hover{
 .text h4{
   padding-bottom:5px;
 }
-
 .programm-heading{
   width: 100%;
   display: inline-table;
   padding-bottom: 10px;
-
 }
-
 .programm-name{
   display: table-cell;
 }
-
 .programm-location {
   padding-top: 7px;
   padding-right: 0px;
@@ -507,73 +460,48 @@ audio:hover{
   display: table-cell;
   text-align: right;
 }
-
-.programm-location > span {
-}
-
-
 .programm-text{
   text-align: justify;
 }
-
-
-
 .extra-bottom-padding {
   padding-bottom: 20px;
 
 }
-
 .extra-bottom-padding > div{
   padding-bottom: 30px;
 }
-
-
 .row-eq-height {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display:         flex;
 }
-
 .resale{
   padding-bottom: 20px;
   margin-top: 7px;
 }
-
 .resale-top {
   border:4px solid #0093cf;
   border-top: 0px;
   border-right: 0px;
   border-radius: 2px;
 }
-
-
 #hero-div {
   height: calc(100vh - 55px);
 }
-
 .label{
   font-weight: 400;
   background-color: #0093cf;
 }
-
 .grd > .col-md-4{
   margin: 60px 0 60px 0;
 }
-
 .pricing-ico{
   margin: 0 auto;
   width: 64px;
   height: 64px;
   background-size: cover;
 }
-
-#prc-1,
-#prc-2,
-#prc-3{
-    background-size: cover;
-}
-
 #prc-1{
   background:url('../img/tickets/cinema.svg');
 }
@@ -583,23 +511,24 @@ audio:hover{
 #prc-3{
   background:url('../img/tickets/people.svg');
 }
-
+#prc-1,
+#prc-2,
+#prc-3{
+    background-size: cover;
+}
 /* TYPO GELOET */
 h2{
   font-size: 32px !important;
   font-weight: 800;
 }
-
 .label-programm-time{
   background-color: #8BCEC1;
   color: #333;
 }
-
 .centerBlock {
   display: table;
   margin: 0 auto;
 }
-
 .flex-hero{
   display: flex;
   align-items: center;
