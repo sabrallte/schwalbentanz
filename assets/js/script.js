@@ -28,11 +28,7 @@ function initNavbar() {
     });
 }
 function centerHero () {
-
-
     $('#hero-img').css('margin-top', (($(window).height()/2 - $('#hero-img').height()/2))-55);
-
-
 }
 function initAnimations() {
     $('.animated').appear(function () {
@@ -64,7 +60,7 @@ function initAnimations() {
 
 
 $(document).ready(function () {
-    centerHero();
+    //centerHero();
     initNavbar();
     backgroundColorHandler('#festival',90, 95, 128);
     //backgroundColorHandler('#programm',125, 160, 206);

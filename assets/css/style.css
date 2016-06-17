@@ -426,11 +426,6 @@ audio:hover{
 
 }
 
-.social-links {
-}
-
-.social-links a img {
-}
 
 .social-links a:hover img {
   -webkit-transform:  scale(1.2);
@@ -508,8 +503,6 @@ audio:hover{
   text-align: right;
 }
 
-.programm-location > span {
-}
 
 
 .programm-text{
@@ -581,6 +574,12 @@ audio:hover{
   background-size: cover;
 }
 
+#prc-1,
+#prc-2,
+#prc-3{
+  background-size: cover;
+}
+
 /* TYPO GELÖT */
 h2{
   font-size: 32px !important;
@@ -595,4 +594,14 @@ h2{
 .centerBlock {
   display: table;
   margin: 0 auto;
+}
+
+.contact-info p {
+  padding-left: 12px;
+}
+
+.flex-hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
